@@ -1,0 +1,21 @@
+.buttons {
+  width: 200px;
+  margin: 0 auto;
+  display: inline-flex;
+  margin: 2%;
+}
+
+.action_btn {
+  width: 200px;
+  margin: 2;
+  display: inline;
+  background-color: #df9138;
+  border-width: 5px;
+  border-radius: 20px;
+  border-color: rgb(8, 8, 8);
+}
+
+.clickme {
+  background-color: #df9036;
+  border-radius: 20px;
+}

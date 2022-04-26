@@ -1,0 +1,114 @@
+/*
+Orange = #f56600
+Purple = #522d80
+*/
+
+#leaderboard_page {
+    text-align: center;
+    padding: 50px;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f56600;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.inactive:hover {
+    background-color: #f56600;
+}
+
+.active {
+    background-color: #f56600;
+}
+
+#confirm_edit, #cancel_edit {
+    margin-left: 50%;
+}
+
+#setup_page, #login_page, #register_page, #home_page, #profile_page {
+    margin: 15px 0 0 0;
+}
+
+.container, #welcome, #profile_info, #profile_scores {
+    color: white;
+    margin: auto;
+    width: 30%;
+    padding: 20px;
+    background-color: #522d80;
+    border-radius: 8px;
+}
+
+.container button, #edit_button, #show_scores, #hide_scores {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.container h3, #welcome h3, #profile_info h3, #profile_scores h3 {
+    text-align: center;
+    border-bottom: 2px solid white;
+    padding: 0 0 5px 0;
+}
+
+#question_footer div {
+    display: inline;
+    margin: 15px;
+}
+
+#question {
+    width: 60%;
+    background-color: #f56600;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+#question ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#question li {
+    width: 40%;
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 5px;
+}
+
+#question li:hover {
+    background-color: lightgray;
+}
+
+#question li.correct {
+    background-color: green;
+}
+
+#question li.incorrect {
+    background-color: darkred;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    margin: auto;
+}
